@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs_on: ubuntu_latest
     steps:
-      name: Print greetin
-      run : echo "Hello to first workflow"
-      name: Print Goodbye
-      run: echo "Its done - Bye"
+      - name: Print greetin
+        run : echo "Hello to first workflow"
+      - name: Print Goodbye
+        run: echo "Its done - Bye"
